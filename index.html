@@ -17,34 +17,70 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+    <div class="container">
+        <div class="row">
+          <div class="jumbotron col-md-12">
+            <h1>Latin Stuff</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras gravida, massa non elementum porta, urna nibh egestas dui, nec consequat mi lorem non felis. Aliquam sit amet lectus accumsan, lobortis lacus eget, cursus magna. In non dolor rutrum, rhoncus risus finibus, ullamcorper metus.</p>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+              Click here!
+            </button>
 
-    <!-- Indicates a successful or positive action -->
-    <button type="button" class="btn btn-success">Success</button>
-
-    <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+            <!-- Modal -->
+            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+                  </div>
+                  <div class="modal-body">
+                    Nice try, but there is nothing cool to look at here. 
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://placehold.it/350x150" alt="350x350" class="img-rounded">
+            <div class="caption">
+              <h3>Words</h3>
+              <p>Curabitur egestas felis vitae enim posuere accumsan sit amet non enim. Nunc in ex accumsan, aliquam lorem nec, iaculis risus. Donec lobortis pulvinar sapien quis lobortis. Nulla vel turpis neque. Nullam tempus magna varius risus mattis bibendum. Integer suscipit justo diam, eu aliquet justo laoreet a. </p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://placehold.it/350x150" alt="350x350" class="img-rounded">
+            <div class="caption">
+              <h3>Show</h3>
+              <p>Pellentesque nibh augue, ornare nec feugiat at, placerat et turpis. Curabitur molestie quis nisl sed fringilla. Proin ut egestas metus, at faucibus ex. Proin et pharetra erat, mattis accumsan massa.</p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="http://placehold.it/350x150" alt="350x350" class="img-rounded">
+            <div class="caption">
+              <h3>Up! Success!</h3>
+              <p>Aenean suscipit mattis sagittis. Cras quis tristique tortor, vel volutpat felis. Quisque nec molestie libero. Quisque lobortis quam nec vulputate viverra. Pellentesque tincidunt lorem non gravida hendrerit. </p>
+              <p><a href="#" class="btn btn-primary" role="button">Button</a></p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
